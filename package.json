@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "Collection of console games",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rikoshet437/qa-auto-engineer-javascript-project-44.git"
+  },
+  "bin": {
+  "brain-games": "bin/brain-games.js"
   },
   "author": "Rikoshet437",
   "license": "ISC",
