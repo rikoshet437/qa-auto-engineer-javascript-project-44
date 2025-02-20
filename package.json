@@ -12,12 +12,15 @@
     "url": "git+https://github.com/rikoshet437/qa-auto-engineer-javascript-project-44.git"
   },
   "bin": {
-  "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "author": "Rikoshet437",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rikoshet437/qa-auto-engineer-javascript-project-44/issues"
   },
-  "homepage": "https://github.com/rikoshet437/qa-auto-engineer-javascript-project-44#readme"
+  "homepage": "https://github.com/rikoshet437/qa-auto-engineer-javascript-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
