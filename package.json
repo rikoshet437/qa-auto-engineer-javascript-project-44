@@ -22,5 +22,9 @@
   "homepage": "https://github.com/rikoshet437/qa-auto-engineer-javascript-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^9.20.1",
+    "globals": "^16.0.0"
   }
 }
