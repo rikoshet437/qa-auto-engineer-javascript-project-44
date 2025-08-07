@@ -12,7 +12,7 @@ const runGeneralGameLogic = (gameRoundData, taskDescription) => {
         const [question, correctAnswer] = gameRoundData();
         console.log(`Question: ${question}`);
         const userAnswer = readlineSync.question('Your answer: ');
-        if (userAnswer ==! correctAnswer) {
+        if (userAnswer !== correctAnswer) {
             console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. \nLet's try arain, ${userName}!`);
             return;
         }
