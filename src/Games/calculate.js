@@ -1,5 +1,5 @@
-import genRandomNumber from "../src/genRandomNumber";
-import runGeneralGameLogic from "../src/index.js";
+import genRandomNumber from "../genRandomNumber.js";
+import runGeneralGameLogic from "../index.js";
 
 const taskDescription = 'What is the result of the expression?';
 
@@ -13,9 +13,9 @@ const calculate = (numOne, numTwo, operator) => {
 }
 const operators = ['+', '-', '*'];
 
-genGameRound = () => {
-    const numOne = genRandomNumber();
-    const numTwo = genRandomNumber();
+const genGameRound = () => {
+    const numOne = genRandomNumber(50, 1);
+    const numTwo = genRandomNumber(50, 1);
 
     const randomIndex = genRandomNumber(operators.length - 1);
     const operator = operators[randomIndex];
