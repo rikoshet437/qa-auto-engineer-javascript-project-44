@@ -21,7 +21,7 @@ const genGameRound = () => {
     const operator = operators[randomIndex];
     const question = `${numOne} ${operator} ${numTwo}`;
 
-    const correctAnswer = calculate(numOne, numTwo, operator);
+    const correctAnswer = calculate(numOne, numTwo, operator).toString();
     return [question, correctAnswer];
 }
 const startBrainCalc = () => {
