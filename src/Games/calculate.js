@@ -14,8 +14,8 @@ const calculate = (numOne, numTwo, operator) => {
 const operators = ['+', '-', '*'];
 
 const genGameRound = () => {
-    const numOne = genRandomNumber(50, 1);
-    const numTwo = genRandomNumber(50, 1);
+    const numOne = genRandomNumber(25, 1);
+    const numTwo = genRandomNumber(25, 1);
 
     const randomIndex = genRandomNumber(operators.length - 1);
     const operator = operators[randomIndex];
